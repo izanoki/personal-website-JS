@@ -20,13 +20,15 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
                 sequence={[
-                    "Ramiro",
+                    "Judd",
                     1000,
-                    "Game Developer",
+                    "MECHANICAL ENGINEER",
                     1000,
-                    "Researcher",
+                    "ASHEN ONE",
                     1000,
-                    "Teacher",
+                    "IZANOKI",
+                    1000,
+                    "FSA MEMBER",
                     1000,
                 ]}
                 wrapper="span"
@@ -35,24 +37,18 @@ const HeroSection = () => {
                 />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          &ldquo;The best way to predict the future is to invent it.&ldquo;
-            — Alan Kay
+          &ldquo;If you do not take risks, you cannot create a future.&ldquo;
+            — Monkey D. Luffy
           </p>
           <div>
           <Link
-              href="/resumes/Game_Dev_Resume.pdf"
-              download="Game_Dev_Resume.pdf"
+              href="/resumes/My Resume (1).pdf"
+              download="My Resume (1).pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 boder border-white mt-3 text-white"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Software Dev</span>
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Resume</span>
             </Link>
-            <Link
-              href="/resumes/Game_Dev_Resume.pdf"
-              download="Game_Dev_Resume.pdf"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 boder border-white mt-3 translate-x-[10px] text-white"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Game Dev</span>
-            </Link>
+            
           </div>
         </motion.div>
         <motion.div
@@ -63,7 +59,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/IMG_7093-modified.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={350}
